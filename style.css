@@ -1,0 +1,56 @@
+body {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button {
+    display: block;
+    padding: 20px
+    px;
+    background-color: #ff6600; /* Color de fondo naranja */
+    color: white; /* Color del texto blanco */
+    border: 2px solid #ff6600; /* Borde sólido naranja */
+    text-decoration: none; /* Quita subrayado enlaces */
+    border-radius: 6px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    margin: 0 auto; /* Centra el botón */
+    width: 100%; /* Ancho del botón 100% en pantallas grandes */
+    max-width: 200px; /* Ancho máximo del botón 200px en pantallas pequeñas */
+    position: relative; /* Coloca el botón en una posición relativa */
+    top: 50%; /* Centra el botón verticalmente */
+    transform: translateY(-50%); /* Centra el botón verticalmente */
+    text-align: center;
+    font-size: large;
+    margin-left: auto; /* Centra el botón horizontalmente */
+    margin-right: auto; /* Centra el botón horizontalmente */
+}
+
+.button:hover {
+    background-color: #f06d22; /* Color de fondo naranja */
+    border-color: #ff6600; /* Color del borde naranja */
+}
